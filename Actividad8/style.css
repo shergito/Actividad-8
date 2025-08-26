@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #1b1b2f;
+    color: #f5f5f5;
+    line-height: 1.6;
+}
+
+header {
+    background: #162447;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #1f8ef1;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #1f8ef1;
+}
+
+.seccion {
+    padding: 6rem 2rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.2rem;
+    color: #1f8ef1;
+    margin-bottom: 1.5rem;
+}
+
+.presentacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.perfil {
+    width: 200px;
+    border-radius: 50%;
+    border: 4px solid #1f8ef1;
+    box-shadow: 0 0 15px rgba(31, 142, 241, 0.6);
+}
+
+.texto {
+    max-width: 500px;
+    font-size: 1.2rem;
+}
+
+.habilidades-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+}
+
+.habilidad {
+    background: #1f4068;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.habilidad img {
+    width: 60px;
+    margin-bottom: 0.5rem;
+}
+
+.habilidad:hover {
+    transform: scale(1.05);
+}
+
+.proyectos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.card {
+    background: #1f4068;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.contacto .btn {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background: #1f8ef1;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 1rem;
+    transition: 0.3s;
+}
+
+.contacto .btn:hover {
+    background: #0f5aa5;
+}
+
+footer {
+    background: #162447;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
