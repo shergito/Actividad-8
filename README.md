@@ -24,6 +24,3 @@ El portafolio está desarrollado con **HTML, CSS y JavaScript**, siguiendo buena
 - **Git y GitHub** → control de versiones y repositorio.  
 - **Hosting:** GitHub Pages / Netlify (opcional).  
 
----
-
-## 📂 Estructura del proyecto
